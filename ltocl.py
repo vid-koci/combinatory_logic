@@ -1,3 +1,4 @@
+#Lambda term to Combinatory Logic translator
 def spl(l):
 	cnt = 0
 	ret = -1

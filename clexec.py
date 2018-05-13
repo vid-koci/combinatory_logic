@@ -1,3 +1,4 @@
+#evaluates lambda terms
 def spl(l):#splits l into first argument and the rest
 	cnt = 0
 	succ=True
@@ -62,8 +63,4 @@ def compute(term):
 			break
 		print ("="+nterm)
 		term=nterm
-p = "S(S(KS)(S(KK)(S(KS)(S(K(SI))(S(KK)I)))))(K((S(KK))I))"
-pi1 = "SI(K(S(KK)I))"
-pi2 = "SI(K(KI))"
-compute(pi1+"("+p+"xy)")
-compute(pi2+"("+p+"xy)")
+compute(input())
