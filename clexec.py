@@ -1,4 +1,4 @@
-#evaluates lambda terms
+#evaluates Combinatory Logic terms
 def spl(l):#splits l into first argument and the rest
 	cnt = 0
 	succ=True
